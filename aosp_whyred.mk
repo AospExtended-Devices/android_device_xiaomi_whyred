@@ -15,10 +15,10 @@ $(call inherit-product, vendor/aosp/common.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit from custom vendor.
-$(call inherit-product, vendor/MiuiCamera/config.mk)
+#$(call inherit-product, vendor/MiuiCamera/config.mk)
 
 # Set Boot Animination Resolution
-TARGET_BOOT_ANIMATION_RES := 2140
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
